@@ -1,10 +1,11 @@
-# This is Emma's page
+#Emma's Coding Website
+
+Processing Projects
 
 Gradient:
 <script src="processing.min.js"></script>
-2 <canvas data-processing-sources="gradient2.pde"></canvas>
+<canvas data-processing-sources="gradient2.pde"></canvas>
 
-
-
-
-[Marlborough School](http://marlborough.org)
+3D River:
+<script src="processing.min.js"></script>
+<canvas data-processing-sources="riverRandom2.pde"></canvas>
