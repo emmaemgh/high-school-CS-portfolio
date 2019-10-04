@@ -10,7 +10,6 @@ float eyeY;
 float eyeZ;
 float centerX;
 boolean done = false;
-boolean start = false;
 
 
 void setup() {
@@ -58,71 +57,52 @@ void notTooClose(Cube cube)
 void draw()
 {
   
+  background(255);
+  //pushMatrix();
+  //drawAxis();
+  //popMatrix();
+  stroke(0);
   
+  camera(eyeX, eyeY, eyeZ, centerX, 0, 0, 0, 1, 0);
+  perspective(fov, float(width)/float(height),
+           cameraZ/10.0, cameraZ*20.0);
+           
   
-    background(255);
-    //pushMatrix();
-    //drawAxis();
-    //popMatrix();
-    if (start == false) {
-    startScreen();
-  }
-  else {
-    stroke(0);
+           
+  pushMatrix();
+  strokeWeight(0.1);
+  fill(169, 169, 169);
+  rotateX(-PI/2);
+  translate(0, -600, 30);
+  rect(-100, 0, 100*width, 100*height);
+  popMatrix();
+  strokeWeight(1);
+  for (Cube cube: cubes)
+  {
+    if (done == false)
+      cube.z+=2.5;
+    collisionCheck();
+    if (cube.z > 500)
+      cube.alive = false;
     
-    
-    camera(eyeX, eyeY, eyeZ, centerX, 0, 0, 0, 1, 0);
-    perspective(fov, float(width)/float(height),
-             cameraZ/10.0, cameraZ*20.0);
-             
-    
-             
-    pushMatrix();
-    strokeWeight(0.1);
-    fill(169, 169, 169);
-    rotateX(-PI/2);
-    translate(0, -600, 30);
-    rect(-100, 0, 100*width, 100*height);
-    popMatrix();
-    strokeWeight(1);
-    for (Cube cube: cubes)
-    {
-      if (done == false)
-        cube.z+=2.5;
-      if (start == true)
-        collisionCheck();
-      if (cube.z > 500)
-        cube.alive = false;
-      
-      cube.display();
-    }
-    
-    for (int i = cubes.size()-1; i >= 0; i--)
-    {
-        if (cubes.get(i).alive == false) 
-        {
-          cubes.get(i).z -= 800;
-          cubes.get(i).x = random(100, 500);
-          cubes.get(i).alive = true;
-          notTooClose(cubes.get(i));
-        }
-    }
-  
-    
-    
-  
-  
+    cube.display();
   }
   
-}
-
-void startScreen() {
-  fill(255);
-  rect(width/3, height/3, width/3, height/3);
-  fill(0);
-  text("Click anywhere to play Cube Field!\n Avoid the cubes at all costs.", 300, height/2);
+  for (int i = cubes.size()-1; i >= 0; i--)
+  {
+      if (cubes.get(i).alive == false) 
+      {
+        cubes.get(i).z -= 800;
+        cubes.get(i).x = random(100, 500);
+        cubes.get(i).alive = true;
+        notTooClose(cubes.get(i));
+      }
+  }
   
   
+  
+  
+ 
   
 }
 
@@ -167,7 +147,6 @@ void collisionCheck()
       {
         cube.c = color(255);
         done = true;
-        start = false;
         
     
       }
@@ -195,12 +174,4 @@ void keyPressed()
     eyeX -=10;
   else if (keyCode == RIGHT)
     eyeX += 10;
-}
-
-void mousePressed()
-{
-   if (mousePressed == true) {
-      start = true; 
-      done = false;
-   }
 }
