@@ -1,16 +1,10 @@
 # This is Emma's page
 
-The quick brown fox jumps over the lazy dog.
+Gradient:
+<script src="processing.min.js"></script>
+2 <canvas data-processing-sources="gradient2.pde"></canvas>
 
-This is a list:
 
-* breakfast
-* lunch
-* dinner
 
 
 [Marlborough School](http://marlborough.org)
-
-
-
-<a href="http://google.com">Google</a>
