@@ -81,7 +81,7 @@ void draw()
   {
     if (done == false)
       cube.z+=2.5;
-    collisionCheck();
+    //collisionCheck();
     if (cube.z > 500)
       cube.alive = false;
     
