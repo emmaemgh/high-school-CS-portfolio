@@ -2,9 +2,12 @@
 
 Processing Projects
 
-Gradient:
+Gradients:
 <script src="processing.min.js"></script>
 <canvas data-processing-sources="gradient2.pde"></canvas>
+
+<script src="processing.min.js"></script>
+<canvas data-processing-sources="gradientArray2.pde"></canvas>
 
 Cube Field Game:
 <script src="processing.min.js"></script>
