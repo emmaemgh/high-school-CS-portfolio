@@ -12,4 +12,4 @@ Gradients:
 
 Cube Field Animation:
 <script src="processing.min.js"></script>
-<canvas data-processing-sources="cubeField2.pde"></canvas>
+<canvas data-processing-sources="cubeField2/cubeField2.pde"></canvas>
