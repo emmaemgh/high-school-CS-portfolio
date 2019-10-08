@@ -3,7 +3,7 @@
 Processing Projects
 
 
-[Link to gradient animation page.](https://emmaemgh.github.io/portfolio/3D.md)
+<a href="https://emmaemgh.github.io/portfolio/gradients">gradients</a>
 
 
 
