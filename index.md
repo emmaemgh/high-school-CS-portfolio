@@ -3,7 +3,7 @@
 Processing Projects
 
 
-<a href="https://emmaemgh.github.io/portfolio/gradients/">gradients</a>
+<a href="gradients/3D.html">gradients!</a>
 
 
 
