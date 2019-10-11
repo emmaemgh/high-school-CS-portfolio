@@ -14,3 +14,5 @@ Processing Projects
 <a href="river.html">River Animation</a>
 
 <a href="schedule/index.html">Marlborough Schedule</a>
+
+<a href="3DScene.html"> 3D Scene</a>
