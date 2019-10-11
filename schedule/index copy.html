@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Marlborough Bells
+    </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="bells.js"></script>
+  </head>
+  <body>
+    
+    <div id="clockSection">
+      <div class="square">
+        <div class="digits" id="chr">00</div>
+        <div class="text">HR</div>
+      </div>
+      <div class="square">
+        <div class="digits" id="cmin">00</div>
+        <div class="text">MIN</div>
+      </div>
+      <div class="square">
+        <div class="digits" id="csec">00</div>
+        <div class="text">SEC</div>
+      </div>
+    </div>
+
+    <div id="nextSection">
+      <h1 class="header" id="nextBell">
+        Next bell
+      </h1>
+      <div>
+        <input type="button" value="Unmute" id="unmute"/>
+      </div>
+      <p>
+      <small>Problems?  Email Dr. Kessner.</small>
+      <p>
+    </div>
+
+    <div class="rectangle">
+    <div id="line"></div>
+
+    <div id="healthystart">
+      <h4>Healthy Start <small>8:00 - 8:30</small></h4>
+    </div>
+
+    <div class="classday">
+      <h1>8:30 - 9:40</h1>
+      <h4 class="other">Community Time <small>9:40 - 10:20</small></h4>
+      <h4 class="other" id="break">Break <small>10:20 - 10:40</small></h4>
+      <h1>10:40 - 11:50</h1>
+      <h4 id="lunch">Lunch  <small>11:50 - 12:35</small></h4>
+
+      <h1>12:35 - 1:45</h1>
+      <h1 id="lastClass">1:50 - 3:00</h1>
+  </body>
+</html>
