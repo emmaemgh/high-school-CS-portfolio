@@ -1,6 +1,6 @@
 #Emma's Coding Website
 
-Processing Projects
+Coding Projects!
 
 
 <a href="3D.html">gradients</a>
