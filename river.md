@@ -1,5 +1,6 @@
 
 
 River Animation:
-<script src="processing.min.js"></script>
-<canvas data-processing-sources="riverRandom2.pde"></canvas>
+<video width="500" height="500">
+  <source src="river2.mp4" type="video/mp4">
+</video>
