@@ -15,7 +15,7 @@ Coding Projects!
 
 <a href="schedule/index.html">Marlborough Schedule</a>
 
-<a href="3DScene.html"> 3D Scene</a>
+
 
 <a href="R.html"> R Analysis</a>
 
