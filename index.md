@@ -19,4 +19,4 @@ Coding Projects!
 
 <a href="R.html"> R Analysis</a>
 
-<a href="game.html"> Game! </a>
+<a href="game.html"> Tic Tac Toe and Brick Breaker Game </a>

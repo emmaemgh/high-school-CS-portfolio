@@ -5,3 +5,5 @@ Infant Mortality Rate per Country data table:
 
 ggplot:
 <iframe src="female-mortality-rate-in-african countries.pdf" height="500" width="100%"></iframe>
+
+Analyzed with R
