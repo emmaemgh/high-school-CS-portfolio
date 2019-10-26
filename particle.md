@@ -1,5 +1,5 @@
 
-Particle Animations
+Particle Animations!
 
 coded in processing
 

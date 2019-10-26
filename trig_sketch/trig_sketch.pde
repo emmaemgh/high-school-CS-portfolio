@@ -1,7 +1,7 @@
 
 
 float circle = 200;
-float rotate;
+float rotation;
 float circleColor;
 float freq = 0.000005; 
 float cont = 0;
@@ -19,7 +19,7 @@ void setup() {
 void draw() {
   background(255);
   translate(250, 250);
-  rotate(radians(rotate));
+  rotate(radians(rotation));
   
   
 
@@ -32,6 +32,6 @@ void draw() {
     //fill(color(frameCount%360,10,200));
     //noStroke (jk);
     ellipse(circle*cos(i), circle*sin(i),r,r);    
-    rotate+=0.0009;
+    rotation+=0.0009;
   }
 }
