@@ -445,7 +445,7 @@ ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
       {
         if (keyCode == UP)
         {
-          if (level1 < 4)
+          if (level1 < 3)
             level1 ++;
           recalculate();
           
