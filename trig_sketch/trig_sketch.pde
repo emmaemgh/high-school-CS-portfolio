@@ -29,7 +29,7 @@ void draw() {
     circleColor=map(circle,200,250,255,1);
     r=map(circle,200,250,10,20);
     
-    fill(color(frameCount%360,10,200));
+    //fill(color(frameCount%360,10,200));
     //noStroke (jk);
     ellipse(circle*cos(i), circle*sin(i),r,r);    
     rotate+=0.0009;
