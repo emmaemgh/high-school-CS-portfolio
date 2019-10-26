@@ -19,6 +19,8 @@ Coding Projects!
 
 
 
-<a href="R.html"> R Analysis</a>
+<a href="R.html"> Mortality Rate Analysis Using R</a>
+
+<a href="DESeq.html">DESeq Genetic analysis using R</a>
 
 <a href="game.html"> Tic Tac Toe and Brick Breaker Game </a>
