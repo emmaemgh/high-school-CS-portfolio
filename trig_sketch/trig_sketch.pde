@@ -12,13 +12,13 @@ float r;
 
 
 void setup() {
-  size(800, 800);
+  size(500, 500);
   frameRate(20);
 }
 
 void draw() {
   background(255);
-  translate(400, 400);
+  translate(250, 250);
   rotate(radians(rotate));
   
   
