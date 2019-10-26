@@ -28,7 +28,7 @@ ArrayList<Line> lines4;
 ArrayList<Line> lines5;
 
 boolean addSpheres = false;
-boolean addBoxes = false;
+boolean addBoxes1 = false;
 boolean addLines = false;
 boolean addRays = false;
 boolean addCircles = false;
@@ -142,7 +142,7 @@ void draw()
         lines = new ArrayList<Line>();
         count ++;
      }
-     if (addBoxes == true)
+     if (addBoxes1 == true)
       {
         if (solar == true)
         {
@@ -816,7 +816,7 @@ void mousePressed()
       if (mouseX > 180 && mouseX < 220  && mouseY > 180 && mouseY < 220)
       {
         gameStage = 1;
-        addBoxes = true;
+        addBoxes1 = true;
       }
       else if (mouseX > 580 && mouseX < 620 && mouseY > 580 && mouseY < 620)
       {
@@ -862,9 +862,9 @@ void mousePressed()
    {
      gameStage = 0;
      count = 2;
-     if (addBoxes == true)
+     if (addBoxes1 == true)
      {
-        addBoxes = false; 
+        addBoxes1 = false; 
      }
      else if (addLines == true)
      {
