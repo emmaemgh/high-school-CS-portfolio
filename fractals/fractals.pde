@@ -21,12 +21,12 @@ float LineY2 = 500;
 int startX = 600;
 int startY = 400;
   
-  public float scale = 0.7f;
-  public int angle = 4;
-  public int g = 1;
-  public int times2 = 1;
-  public int angle2 = 4;
-  public int branchLength = 0;
+   float scale1 = 0.7f;
+   int angle = 4;
+   int g = 1;
+   int times2 = 1;
+   int angle2 = 4;
+   int branchLength = 0;
 
 void setup() {
  size(800, 800); 
@@ -132,7 +132,7 @@ ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
     
     for (Line a: lines)
     {
-      ArrayList<Line> temp = a.split(scale, angle, g, times2, angle2, branchLength);
+      ArrayList<Line> temp = a.split(scale1, angle, g, times2, angle2, branchLength);
       result.add(a);
       for (Line c: temp)
         result.add(c);
@@ -224,7 +224,7 @@ ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
      void deFault()
   {
     level = 0;
-    scale = 0.7f;
+    scale1 = 0.7f;
     angle = 4;
     g = 1;
     times2 = 1;
@@ -365,12 +365,12 @@ ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
         }
         else if (mouseX > 30 && mouseX < 120 && mouseY < 65)
         {
-          scale -= 0.1f;
+          scale1 -= 0.1f;
           recalc();
       }
         else if (mouseX > 30 && mouseX < 120 && mouseY > 65 && mouseY < 135)
         {
-          scale += 0.1f;
+          scale1 += 0.1f;
           recalc();
         }
       
@@ -475,13 +475,13 @@ ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
         }
         else if (key == 'w')
         {  
-          scale += 0.1f;
+          scale1 += 0.1f;
           recalc();
           
         }
         else if (key == 's')
         {
-          scale -= 0.1f;
+          scale1 -= 0.1f;
           recalc();
         }
         else if (key == '1')
@@ -629,20 +629,20 @@ public class Line
   
   
   
-   ArrayList<Line> split(float scale, int angle, int g, int times2, int angle2, int branchLength)
+   ArrayList<Line> split(float scale1, int angle, int g, int times2, int angle2, int branchLength)
   {
     ArrayList<Line> result = new ArrayList<Line>();
     int times = 1;
     for (int i = 0; i<g ; i++)
     {
       endpoint = new PVector(LineX2-LineX, LineY2-LineY);
-      endpoint.mult(scale);
+      endpoint.mult(scale1);
       endpoint.rotate(times*PI/angle);
       endpoint.add(LineX2, LineY2);
       result.add(new Line(LineX2, LineY2, endpoint.x, endpoint.y));
       
       endpoint2 = new PVector(LineX2-LineX, LineY2-LineY);
-      endpoint2.mult(scale);
+      endpoint2.mult(scale1);
       endpoint2.rotate(-PI*times2/angle2);
       endpoint2.add(LineX2 - branchLength, LineY2 - branchLength);
       result.add(new Line(LineX2, LineY2, endpoint2.x, endpoint2.y));
