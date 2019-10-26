@@ -7,6 +7,8 @@ Coding Projects!
 
 <a href="particle.html">Particle Animations</a>
 
+<a href="fractals.html">Fractals</a>
+
 <a href="3D2.html">Cubefield</a>
 
 <a href="3DList.html">3D shapes</a>
