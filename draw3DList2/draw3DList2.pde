@@ -27,11 +27,11 @@ ArrayList<Line> lines3;
 ArrayList<Line> lines4;
 ArrayList<Line> lines5;
 
-boolean addSpheres = false;
+boolean addSpheres1 = false;
 boolean addBoxes1 = false;
-boolean addLines = false;
-boolean addRays = false;
-boolean addCircles = false;
+boolean addLines1 = false;
+boolean addRays1 = false;
+boolean addCircles1 = false;
 boolean rotate = false;
 boolean mod = false;
 boolean kaleid = false;
@@ -122,7 +122,7 @@ void draw()
     //rect(0, 700, 100, 100);
     ellipse(50, 700, 10, 10);
     
-    line(0, 0, 0, 50, 50, 50);
+    //line(0, 0, 0, 50, 50, 50);
    
   
     
@@ -197,7 +197,7 @@ void draw()
        }
       }
    
-     if (addSpheres == true)
+     if (addSpheres1 == true)
      {
        float T = 200;
        float t = (frameCount % T)/200;
@@ -229,7 +229,7 @@ void draw()
      
      color from = color(0, 0, 255);
      color to = color(0, 255, 0);
-     if (addLines == true) //different colors along lines
+     if (addLines1 == true) //different colors along lines
        {
           addLines();
           
@@ -282,7 +282,7 @@ void draw()
            }  
          
        }
-      if (addRays == true)
+      if (addRays1 == true)
       {
           
          addRays(); 
@@ -306,7 +306,7 @@ void draw()
               popMatrix();
            }  
       }
-      if (addCircles == true)
+      if (addCircles1 == true)
       {
          addCircles();
          if (kaleidClass == true)
@@ -821,17 +821,17 @@ void mousePressed()
       else if (mouseX > 580 && mouseX < 620 && mouseY > 580 && mouseY < 620)
       {
         gameStage = 1;
-        addSpheres = true;
+        addSpheres1 = true;
       }
       else if (mouseX >180 && mouseX < 320 && mouseY > 580 && mouseY < 620)
       {
          gameStage = 1;
-         addLines = true;
+         addLines1 = true;
       }
       else if (mouseX > 580 && mouseY < 400)
       {
          gameStage = 1;
-         addRays = true;
+         addRays1 = true;
       }
      
       else if (mouseX <100 && mouseY > 680)
@@ -847,12 +847,12 @@ void mousePressed()
       else
       {
          gameStage = 1;
-         addCircles = true;
+         addCircles1 = true;
       }
      
    }
    
-   if (gameStage == 1 && addRays == true)
+   if (gameStage == 1 && addRays1 == true)
    {
       chooseX = mouseX;
       chooseY = mouseY;
@@ -866,21 +866,21 @@ void mousePressed()
      {
         addBoxes1 = false; 
      }
-     else if (addLines == true)
+     else if (addLines1 == true)
      {
-        addLines = false; 
+        addLines1 = false; 
      }
-     else if (addRays == true)
+     else if (addRays1 == true)
      {
-        addRays = false; 
+        addRays1 = false; 
      }
-     else if (addCircles == true)
+     else if (addCircles1 == true)
      {
-        addCircles = false; 
+        addCircles1 = false; 
      }
-     else if (addSpheres == true)
+     else if (addSpheres1 == true)
      {
-        addSpheres = false; 
+        addSpheres1 = false; 
      }
      else if (rotate == true)
      {
@@ -896,7 +896,7 @@ void mousePressed()
    
    
 
-   if (gameStage == 1 && addCircles == true)
+   if (gameStage == 1 && addCircles1 == true)
    {
       radius = int(random(0, 100));
       if (mouseX>400)
@@ -906,7 +906,7 @@ void mousePressed()
         
    }
    
-   if (gameStage == 1 && addLines == true && kaleidClass == true)
+   if (gameStage == 1 && addLines1 == true && kaleidClass == true)
    {
       shadeChange = true; 
    }
