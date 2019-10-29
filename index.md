@@ -6,16 +6,25 @@ Coding Projects!
   #processing {
     display: block;
     border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
   }
 
   #webDevelopment {
     display: block;
     border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
   }
 
   #R {
     display: block;
     border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
   }
 </style>
 
@@ -39,7 +48,7 @@ Coding Projects!
 
 <div id="webDevelopment">
 
-Web Development:
+<h1>Web Development:<br></h1>
 
 
 <a href="schedule/index.html">Marlborough Schedule</a>
