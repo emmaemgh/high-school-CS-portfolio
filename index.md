@@ -30,6 +30,8 @@ Coding Projects!
 
 <div id="processing">
 
+<h1>Processing and Java Projects<br></h1>
+
 <a href="3D.html">gradients<br></a>
 
 <a href="game.html"> Tic Tac Toe and Brick Breaker Game <br></a>
@@ -64,7 +66,7 @@ Coding Projects!
 <div id="R">
 
 
-R:
+<h1>R Analysis<br></h1>
 
 <a href="R.html"> Mortality Rate Analysis Using R<br></a>
 
