@@ -19,7 +19,11 @@ Coding Projects!
 
 Web Development:
 
+
 <a href="schedule/index.html">Marlborough Schedule</a>
+<p>I developed this website when my school bell system went out, and students needed help getting to classes on time and knowing when periods ended. It has a visual of the class day as well as a bell system that rings on time.>/p>
+
+
 
 <a href="sampleMap2.html"> Los Angeles Surf Spots</a>
 <p>I developed this website to display my favorite surf spots in Souther California. Clicking on a spot will bring up the daily surf forecast, a brief intro of the surf spot, and nearby cafes that are perfect for post-surf coffee and breakfast. </p>
