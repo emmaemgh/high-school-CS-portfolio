@@ -22,6 +22,8 @@ Web Development:
 <a href="schedule/index.html">Marlborough Schedule</a>
 
 <a href="sampleMap2.html"> Los Angeles Surf Spots</a>
+<p>I developed this website to display my favorite surf spots in Souther California. Clicking on a spot will bring up the daily surf forecast, a brief intro of the surf spot, and nearby cafes that are perfect for post-surf coffee and breakfast. </p>
+
 
 R:
 
