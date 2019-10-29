@@ -21,7 +21,7 @@ Web Development:
 
 <a href="schedule/index.html">Marlborough Schedule</a>
 
-<a href="sampleMap2.html" Los Angeles Surf Spots</a>
+<a href="sampleMap2.html"> Los Angeles Surf Spots</a>
 
 R:
 
