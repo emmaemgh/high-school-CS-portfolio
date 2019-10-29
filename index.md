@@ -5,32 +5,35 @@ Coding Projects!
 <style>
   #processing {
     display: block;
+    border: 1px solid black;
   }
 
   #webDevelopment {
     display: block;
+    border: 1px solid black;
   }
 
   #R {
     display: block;
+    border: 1px solid black;
   }
 </style>
 
 <div id="processing">
 
-<a href="3D.html">gradients</a>
+<a href="3D.html">gradients<br></a>
 
-<a href="game.html"> Tic Tac Toe and Brick Breaker Game </a>
+<a href="game.html"> Tic Tac Toe and Brick Breaker Game <br></a>
 
-<a href="particle.html">Particle Animations</a>
+<a href="particle.html">Particle Animations<br></a>
 
-<a href="fractals.html">Fractals</a>
+<a href="fractals.html">Fractals<br></a>
 
-<a href="3D2.html">Cubefield</a>
+<a href="3D2.html">Cubefield<br></a>
 
-<a href="3DList.html">3D shapes</a>
+<a href="3DList.html">3D shapes<br></a>
 
-<a href="river.html">River Animation</a>
+<a href="river.html">River Animation<br></a>
 
 </div>
 
@@ -54,7 +57,7 @@ Web Development:
 
 R:
 
-<a href="R.html"> Mortality Rate Analysis Using R</a>
+<a href="R.html"> Mortality Rate Analysis Using R<br></a>
 
 <a href="DESeq.html">DESeq Genetic analysis using R</a>
 
