@@ -58,7 +58,7 @@ Coding Projects!
 
 
 
-<a href="sampleMap2.html"> Los Angeles Surf Spots</a>
+<a href="sampleMapFinal.html"> Los Angeles Surf Spots</a>
 <p>I developed this website to display my favorite surf spots in Southern California. Clicking on a spot will bring up the daily surf forecast, a brief intro of the surf spot, and nearby cafes that are perfect for a post-surf coffee and breakfast. </p>
 
 </div>
