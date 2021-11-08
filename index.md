@@ -27,6 +27,7 @@ Coding Projects!
     text-align: center;
     margin: 10px;
     padding: 5px;
+  }
   
   #berkeley {
     display: block;
