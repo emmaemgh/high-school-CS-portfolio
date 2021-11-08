@@ -3,13 +3,7 @@
 Coding Projects!
 
 <style>
-  #processing {
-    display: block;
-    border: 1px solid black;
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
-  }
+  
 
   #webDevelopment {
     display: block;
@@ -20,6 +14,14 @@ Coding Projects!
   }
 
   #R {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  #processing {
     display: block;
     border: 1px solid black;
     text-align: center;
