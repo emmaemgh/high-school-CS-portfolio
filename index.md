@@ -27,9 +27,28 @@ Coding Projects!
     text-align: center;
     margin: 10px;
     padding: 5px;
+  
+  #berkeley {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+  
   }
 </style>
 
+<div id="berkeley">
+  <h1>Berkeley Coursework Projects<br></h1>
+  <h2>CS1A - Python<br></h2>
+  <p><b>Ants Project:</b> combines functional and object-oriented programming paradigms to create a similar game to Plants vs Zombies<br> </p>
+  <p><b>Scheme Interpreter:</b> developed an interpreter for a subset of the Scheme language<br> </p>
+  
+  <h2>CS 61B - Java<br></h2>
+  <p><b>Data Structures Project:</b> build implementations of a “Double Ended Queue” using both lists and arrays in a package that other classes can use<br></p>
+  <p><b>Gitlet:</b>  implementing a version-control system that mimics some of the basic features of the popular system Git<br></p>
+ </div>
+  
 <div id="processing">
 
 <h1>Processing and Java Projects<br></h1>
