@@ -36,6 +36,11 @@ Coding Projects!
     padding: 5px;
   
   }
+  
+  h2 {
+    color: black;
+  
+  }
 </style>
 
 <div id="berkeley">
